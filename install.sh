@@ -2,7 +2,7 @@
 set -e
 
 REPO="wudilaoliu/laolliuvps"
-BRANCH="main"
+BRANCH="${MCP_BRANCH:-main}"
 MCP_DIR="$HOME/.local/share/local-terminal-mcp"
 
 echo "==> 检查 Node.js..."
